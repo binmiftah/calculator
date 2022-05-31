@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: linear-gradient(to top right, rgb(64, 115, 150), black);
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+}
+
+.container {
+    margin: 13rem 50rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template: repeat(6, 5rem) / repeat(12, 1fr);
+}
+
+in
+
+.button {
+    background-color: rgb(85, 182, 28);
+}
+
+
+
+.screen {
+    grid-column: 1 / -1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    color: chartreuse;
+}
+
+.first {
+    grid-column: 1 /4;
+}
+
+.second {
+    grid-column: 4 /7;
+}
+
+.third {
+    grid-column: 7 / 10;
+}
+
+.fourth {
+    grid-column: 10 / -1;
+    background-color: black;
+    color: khaki;
+}
+
+.equals {
+    grid-column: 1 / 10;
+    background-color: rgb(44, 42, 165);
+    color: white;
+}
+
+.clear {
+    grid-column: 1 / -1;
+    background-color: rgb(197, 33, 33);
+    color: white;
+}
+.bg-brown {
+    background: brown;
+}
